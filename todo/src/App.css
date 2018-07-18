@@ -3,6 +3,10 @@
   width: 50%;
 }
 
+.body {
+  background-color: aliceblue
+}
+
 .myForm{
   width: 100%;
   background-color: #dfe6e9;

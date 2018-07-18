@@ -69,9 +69,9 @@ class App extends Component {
       <div className="App">
         <h2>{this.state.title}</h2>
         <form ref="myForm" className="myForm">
-          <input type="text" ref="todo" placeholder="to do" className="formField" />
-          <button onClick={(e)=>this.fSubmit(e)} className="myButton">Submit</button>
-        </form>
+                <input type="text" ref="todo" placeholder="to do" className="formField" />
+                <button onClick={(e)=>this.fSubmit(e)} className="myButton">Submit</button>
+            </form>
         <pre>
           {datas.map((data, i)=>
             <li key={i} className="myList">
